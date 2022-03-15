@@ -6,6 +6,13 @@ public class LineComparison {
             System.out.println("Both Lines Are Same");
         } else{
             System.out.println("Lines Are No Same");
+
+            //UC-3-Length Of Two Lines Are Compare
+            if(lengthofline1 > lengthofline2){
+                System.out.println("Length Of Line 1 Is Greater");
+            } else{
+                System.out.println("Length Of Line 2 Is Greater");
+            }
         }
     }
 
